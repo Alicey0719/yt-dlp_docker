@@ -1,0 +1,12 @@
+services:
+  yt-dlp:
+    container_name: yt-dlp
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    # image: alicey/yt-dlp:latest
+    volumes: 
+      - ./yt-dlp:/yt-dlp
+    # command: ['https://www.youtube.com/watch?v=']
+
+
