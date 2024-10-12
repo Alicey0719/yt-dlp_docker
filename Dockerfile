@@ -4,6 +4,7 @@ ENV TZ=Asia/Tokyo
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg jq \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /tmp
