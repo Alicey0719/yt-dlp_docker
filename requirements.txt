@@ -1,2 +1,2 @@
 yt-dlp==2025.12.8
-websockets==15.0.1
+websockets==16.0
