@@ -1,2 +1,2 @@
-yt-dlp==2026.2.4
+yt-dlp==2026.2.21
 websockets==16.0
