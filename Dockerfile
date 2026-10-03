@@ -1,4 +1,4 @@
-FROM python:3.14.5
+FROM python:3.14.7
 
 ENV TZ=Asia/Tokyo
 
